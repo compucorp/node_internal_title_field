@@ -1,0 +1,11 @@
+name = Node Internal Title Field
+description = Creates "Internal title" field on content types.
+core = 7.x
+package = Compucorp
+version = 7.x-1.0
+dependencies[] = features
+dependencies[] = text
+features[features_api][] = api:2
+features[field_base][] = field_node_internal_title
+features[field_instance][] = node-page-field_node_internal_title
+features[field_instance][] = node-webform-field_node_internal_title
